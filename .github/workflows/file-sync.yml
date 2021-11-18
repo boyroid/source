@@ -3,7 +3,7 @@ name: File Sync
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   file_sync:
