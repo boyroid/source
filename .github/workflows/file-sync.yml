@@ -1,0 +1,22 @@
+name: File Sync
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  file_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching Local Repository
+        uses: actions/checkout@master
+      - name: File Sync
+        uses: kbrashears5/github-action-file-sync@v2.0.0
+        with:
+          REPOSITORIES: |
+            boyroid/destination@main
+          FILES: |
+            sync-testing/files/folder1
+            sync-testing/files/folder1
+          TOKEN: ${{ secrets.ACTIONS }}
