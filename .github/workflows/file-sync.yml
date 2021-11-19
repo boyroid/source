@@ -17,6 +17,5 @@ jobs:
           REPOSITORIES: |
             boyroid/destination@main
           FILES: |
-            sync-testing/files/folder1
-            sync-testing/files/folder1
+            sync-testing/files/folder1=sync-testing/files/folder1
           TOKEN: ${{ secrets.ACTIONS }}
