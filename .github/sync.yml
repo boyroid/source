@@ -1,0 +1,3 @@
+boyroid/destination:
+  - source: 'sync-testing/files'
+    dest: 'sync-testing/files'
