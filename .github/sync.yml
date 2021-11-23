@@ -6,3 +6,4 @@ boyroid/source:
 boyroid/destination:
   - source: 'sync-testing/files'
     dest: 'sync-testing/files'
+    exclude: 'sync-testing/files/folder3/file4.txt'
