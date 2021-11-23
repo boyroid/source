@@ -4,6 +4,11 @@ boyroid/source:
     exclude: 'folder3/file4.txt'
   - source: 'sync-testing/roles/'
     dest: 'sync-testing/roles/'
+    exclude: |
+      backend/defaults/main.yml
+      database/defaults/main.yml
+      frontend/defaults/main.yml
+      nginx/defaults/main.yml
 
 boyroid/destination:
   - source: 'sync-testing/files/'
@@ -11,3 +16,8 @@ boyroid/destination:
     exclude: 'folder3/file4.txt'
   - source: 'sync-testing/roles/'
     dest: 'sync-testing/roles/'
+    exclude: |
+      backend/defaults/main.yml
+      database/defaults/main.yml
+      frontend/defaults/main.yml
+      nginx/defaults/main.yml
