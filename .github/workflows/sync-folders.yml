@@ -15,4 +15,4 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           SKIP_PR: true
-          COMMIT_BODY: "Mirrored from boyroid/source @ $GITHUB_REF"
+          COMMIT_BODY: 'Mirrored from boyroid/source @ $GITHUB_REF'
