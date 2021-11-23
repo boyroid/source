@@ -2,7 +2,7 @@ boyroid/source:
   - source: 'sync-testing/files'
     dest: 'sync-testing/files'
     exclude: |
-      file4.txt
+      sync-testing/files/folder3/file4.txt
 
 boyroid/destination:
   - source: 'sync-testing/files'
