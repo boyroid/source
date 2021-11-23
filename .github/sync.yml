@@ -2,8 +2,12 @@ boyroid/source:
   - source: 'sync-testing/files/'
     dest: 'sync-testing/files/'
     exclude: 'folder3/file4.txt'
+  - source: 'sync-testing/roles/'
+    dest: 'sync-testing/roles/'
 
 boyroid/destination:
   - source: 'sync-testing/files/'
     dest: 'sync-testing/files/'
     exclude: 'folder3/file4.txt'
+  - source: 'sync-testing/roles/'
+    dest: 'sync-testing/roles/'
